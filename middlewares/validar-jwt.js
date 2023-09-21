@@ -40,10 +40,6 @@ const validarJWT = async( req = request, res = response, next ) => {
             msg: 'Token no valido'
         })
     }
-
-    console.log(token);
-
-    next();
 }
 
 module.exports = {
